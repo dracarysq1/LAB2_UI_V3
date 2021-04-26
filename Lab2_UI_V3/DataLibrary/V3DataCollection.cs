@@ -25,7 +25,7 @@ namespace DataLibrary
             return ((IEnumerable)list).GetEnumerator();
         }
 
-
+        [field: NonSerialized]        
         public event NotifyCollectionChangedEventHandler CollectionChanged;
 
 
