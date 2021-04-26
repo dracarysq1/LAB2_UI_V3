@@ -67,7 +67,7 @@ namespace WPF_LAB2
                         {
                             foreach (DataItem item in v3datacollection.list)
 
-                                if (item.vec.X == X)
+                                if (item.vec.X == X && item.vec.Y == Y)
                                     msg = "Match field points";
                             break;
                         }
@@ -77,7 +77,7 @@ namespace WPF_LAB2
                         {
                             foreach (DataItem item in v3datacollection.list)
 
-                                if ( item.vec.Y == Y)
+                                if ( item.vec.X == X && item.vec.Y == Y)
                                     msg = "Match field points";
                             break;
                         }
